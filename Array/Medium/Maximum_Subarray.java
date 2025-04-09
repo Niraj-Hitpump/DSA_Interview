@@ -1,4 +1,4 @@
-// 53. Maximum Subarray
+// 53. Maximum Subarray.
 
 // Kandane's Algorithm
 // Kadane's Algorithm is a dynamic programming technique used to efficiently find the maximum sum of a contiguous subarray within a given array of numbers, solving the maximum subarray problem in linear time complexity (O(n)). It is also known as the maximum sum subsequence problem.
