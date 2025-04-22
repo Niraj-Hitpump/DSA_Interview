@@ -1,5 +1,5 @@
-package Easy;
-// 83. Remove Duplicates from Sorted List..
+
+// 83. Remove Duplicates from Sorted List....
 
 // Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
 
@@ -28,6 +28,7 @@ package Easy;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+// code:-
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         if (head==null) return null;
