@@ -19,7 +19,7 @@ class Solution {
         int n=nums.length;
         int [] result=new int[n];
         Stack <Integer> stack=new Stack<>();
-
+     
         Arrays.fill(result,-1);
 
         for(int i=2*n-1; i>=0;i--){
@@ -28,7 +28,6 @@ class Solution {
             while(!stack.isEmpty() && stack.peek()<=nums[index]){
                 stack.pop();
             }
-
             if(i<n){
                 result[index]=stack.isEmpty() ? -1 :stack.peek();
             }
