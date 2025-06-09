@@ -1,4 +1,4 @@
-// Remove Duplicates from Sorted Array
+// Remove Duplicates from Sorted Array.
 
 // Example 1:
 
@@ -24,5 +24,5 @@ class Solution {
     }
 }
 
-// Time Complexity: O(n), where n is the length of the array
-// Space Complexity: O(1), since we are modifying the array in place
+// Time Complexity: O(n), where n is the length of the array.
+// Space Complexity: O(1), since we are modifying the array in place.
