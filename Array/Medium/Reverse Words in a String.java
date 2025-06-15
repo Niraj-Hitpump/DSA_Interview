@@ -11,14 +11,14 @@
 // Example 2:
 // Input: s = "  hello world  "
 // Output: "world hello"
-// Explanation: Your reversed string should not contain leading or trailing spaces.
+// Explanation: Your reversed string should not contain leading or trailing spaces..
 
 class Solution {
     public String reverseWords(String s) {
         // trim and split..
         String [] words=s.trim().split("\\s+");
         int i=0; int j=words.length-1;
-
+        
         // reverse the array using 2 pointer approach
         while(i<j){
             String temp=words[i];
