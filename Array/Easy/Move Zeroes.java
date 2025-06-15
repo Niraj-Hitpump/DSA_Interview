@@ -10,6 +10,7 @@
 // Input: nums = [0]
 // Output: [0]
 
+// this solution valid like move zeroes to last or any number to last for this we can replace 0 with particular no.
 class Solution {
     public void moveZeroes(int[] nums) {
         int j=0;//stores the current value
