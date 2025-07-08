@@ -6,6 +6,11 @@
 
 // Do not modify the linked list.
 
+Input: head = [3,2,0,-4], pos = 1
+Output: tail connects to node index 1
+Explanation: There is a cycle in the linked list, where tail connects to the second node.
+
+
 
 public class Solution {
     public ListNode detectCycle(ListNode head) {
